@@ -1,1 +1,4 @@
 libcallwrapper/* filter=git-crypt diff=git-crypt
+*.java filter=git-crypt diff=git-crypt
+build.gradle filter=git-crypt diff=git-crypt
+
