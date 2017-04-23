@@ -1,4 +1,4 @@
-# tpleditor
+# tpleditorf
 Proof of Concept for a 2D TPL editor for TreeDNS Languages
 
 # UI latency (graph updates)
@@ -21,11 +21,11 @@ We use the `fatJar` target and not the normal build target:
 
 Note: do not use `gradle build` as this won't find the required libraries (use `fatJar` instead).
 
-Afterwards execute the `tpleditor_gradle-all-1.0.jar`
+Afterwards execute the `tpleditor-all-1.0.jar`
 
-    java -jar build/libs/tpleditor_gradle-all-1.0.jar
+    java -jar build/libs/tpleditor-all-1.0.jar
 
-Warning: Make sure you execute `build/libs/tpleditor_gradle-all-1.0.jar`
+Warning: Make sure you execute `build/libs/tpleditor-all-1.0.jar`
 from the build root directory (which must contain `./tpl/bin/tpl`) as
 illustrated above. If not you will see this errors:
 
