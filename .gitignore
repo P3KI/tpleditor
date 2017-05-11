@@ -1,3 +1,4 @@
 tpl/
 .gradle/
 build/
+/bin/
